@@ -26,8 +26,8 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
     
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Love--金哥哥" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="Love--金哥哥" type="application/atom+xml">
+</head>
 
     <script type="text/javascript">
         var OriginTitile = document.title, st; 
@@ -95,22 +95,22 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/contact" class="waves-effect waves-light">
+    <a href="/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
-      <span>留言板</span>
+      <span>关于我</span>
     </a>
     
   </li>
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
+    <a href="/contact" class="waves-effect waves-light">
       
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
       
-      <span>关于我</span>
+      <span>留言板</span>
     </a>
     
   </li>
@@ -197,22 +197,22 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/contact" class="waves-effect waves-light">
+		<a href="/about" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
-			留言板
+			关于我
 		</a>
           
         </li>
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="/contact" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-comments"></i>
 			
-			关于我
+			留言板
 		</a>
           
         </li>
@@ -309,7 +309,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                不悔过去，不惧未来
+                不惧未来
                 
             </div>
 
@@ -335,18 +335,8 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
-    // 每5s切换 banner 图.  Switch banner image
-    var pic = 0;
-    setInterval(function(){
-        pic++
-        $('.bg-cover').css('background-image', 'url(/medias/banner/' + pic + '.jpg)');
-        if(pic==6){
-            pic=-1;
-        }
-    },5000)
-    
-    
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
 
 
@@ -661,8 +651,8 @@
 <script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
     let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
+        clientID: 'https://github.com/login',
+        clientSecret: '950308jin',
         repo: 'luckyzxj.github.io',
         owner: 'luckyzxj',
         admin: "luckyzxj",
@@ -733,7 +723,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">73</span>&nbsp;字
+                class="white-color">146</span>&nbsp;字
             
             
             
