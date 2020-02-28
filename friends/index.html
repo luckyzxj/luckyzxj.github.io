@@ -95,11 +95,11 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/enjoy" class="waves-effect waves-light">
+    <a href="/contact" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
-      <span>轻松时刻</span>
+      <span>留言板</span>
     </a>
     
   </li>
@@ -197,11 +197,11 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/enjoy" class="waves-effect waves-light">
+		<a href="/contact" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
-			轻松时刻
+			留言板
 		</a>
           
         </li>
@@ -309,7 +309,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                
+                不悔过去，不惧未来
                 
             </div>
 
@@ -646,6 +646,32 @@
         </div>
         <div class="card">
 
+            
+            <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: 'luckyzxj.github.io',
+        owner: 'luckyzxj',
+        admin: "luckyzxj",
+        id: '2020-02-28T12-39-25',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
             
 
             
