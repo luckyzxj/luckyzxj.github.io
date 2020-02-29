@@ -5,9 +5,9 @@
   <subtitle>不惧未来</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://luckyzxj.github.io/"/>
+  <link href="https://luckyzxj.gitee.io/jingege/"/>
   <updated>2020-02-28T11:34:27.768Z</updated>
-  <id>https://luckyzxj.github.io/</id>
+  <id>https://luckyzxj.gitee.io/jingege/</id>
   
   <author>
     <name>Love--金哥哥</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="https://luckyzxj.github.io/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC2%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://luckyzxj.github.io/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC2%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://luckyzxj.gitee.io/jingege/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC2%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://luckyzxj.gitee.io/jingege/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC2%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-02-28T01:21:50.000Z</published>
     <updated>2020-02-28T11:34:27.768Z</updated>
     
@@ -37,17 +37,17 @@
     </summary>
     
     
-      <category term="vue" scheme="https://luckyzxj.github.io/categories/vue/"/>
+      <category term="vue" scheme="https://luckyzxj.gitee.io/jingege/categories/vue/"/>
     
     
-      <category term="css" scheme="https://luckyzxj.github.io/tags/css/"/>
+      <category term="css" scheme="https://luckyzxj.gitee.io/jingege/tags/css/"/>
     
   </entry>
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="https://luckyzxj.github.io/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://luckyzxj.github.io/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://luckyzxj.gitee.io/jingege/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://luckyzxj.gitee.io/jingege/2020/02/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-02-28T01:21:50.000Z</published>
     <updated>2020-02-28T11:34:27.768Z</updated>
     
@@ -65,10 +65,10 @@
     </summary>
     
     
-      <category term="vue" scheme="https://luckyzxj.github.io/categories/vue/"/>
+      <category term="vue" scheme="https://luckyzxj.gitee.io/jingege/categories/vue/"/>
     
     
-      <category term="css" scheme="https://luckyzxj.github.io/tags/css/"/>
+      <category term="css" scheme="https://luckyzxj.gitee.io/jingege/tags/css/"/>
     
   </entry>
   
